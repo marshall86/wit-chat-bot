@@ -1,0 +1,46 @@
+{
+    "utterances": [
+        {
+            "text": "what time is it",
+            "entities": [
+                {
+                    "entity": "wit$datetime:datetime",
+                    "start": 5,
+                    "end": 9,
+                    "body": "time",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "wit$get_time"
+        },
+        {
+            "text": "what time is now",
+            "entities": [
+                {
+                    "entity": "wit$datetime:datetime",
+                    "start": 13,
+                    "end": 16,
+                    "body": "now",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "wit$get_time"
+        },
+        {
+            "text": "what's the time now",
+            "entities": [
+                {
+                    "entity": "wit$datetime:datetime",
+                    "start": 11,
+                    "end": 19,
+                    "body": "time now",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "wit$get_time"
+        }
+    ]
+}

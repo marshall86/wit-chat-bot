@@ -1,0 +1,7 @@
+{
+    "version": 20200513,
+    "zip-command": "zip frontend_bot.zip frontend_bot\/app.json frontend_bot\/entities\/*.json frontend_bot\/intents\/*.json frontend_bot\/traits\/*.json frontend_bot\/utterances\/*.json",
+    "name": "frontend_bot",
+    "lang": "en",
+    "timezone": "America\/Los_Angeles"
+}

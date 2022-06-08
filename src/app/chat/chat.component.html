@@ -1,0 +1,47 @@
+<div class="messaging">
+
+  <div class="inbox_msg">
+
+    <div class="messages">
+
+      <div class="msg_history">
+        <li class="message" *ngIf="chat.message">
+          <div class="incoming_msg">
+
+            <div class="incoming_msg_img">
+              <img src="https://i.imgur.com/k2PZLZa.png" alt="User avatar" />
+            </div>
+
+            <div class="sent_message">
+              <div>
+                <p>{{chat.message}}</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="outgoing_msg" *ngIf="chat.answer">
+            <div class="sent_msg">
+              <p>{{ chat.answer }}</p>
+            </div>
+          </div>
+        </li>
+      </div>
+
+      <div class="type_msg">
+
+        <form class="input_msg_write" (ngSubmit)="sendMessage()">
+          <input type="text" class="write_msg" placeholder="Type a message" name="newMessage"
+            [(ngModel)]="newMessage" />
+
+          <button class="msg_send_btn" type="button">
+            <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+          </button>
+        </form>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</div>

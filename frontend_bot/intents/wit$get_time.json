@@ -1,0 +1,6 @@
+{
+    "name": "wit$get_time",
+    "entities": [
+        "wit$datetime:datetime"
+    ]
+}

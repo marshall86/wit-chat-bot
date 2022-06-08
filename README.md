@@ -2,6 +2,13 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.6.
 
+The scope of this project is the creation of a simple interface to send a message to Wit api and get a response.
+In this specific project we cater for the current time so if the user input "what's the time now?" or similar messages containing the word "now" will return the current user time.
+
+It's important to set in the environment files the Wit token and the version (you can get them in the Management > settings of your Wit page).
+
+In this repo you will find a basic Wit configuration that you can easily import and start playing with it on your own.
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
